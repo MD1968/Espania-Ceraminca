@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/* Style the photo carousel */
+
+.carousel-inner {margin-top: 30px;width:100%;height:250px;}
+.overpic{position:absolute;top:0px;left:0%;opacity:0.5;z-index:2;}
+	.overpic img{margin-top: 10px; width:100%;height:250px;}
+	
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #C52639;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
