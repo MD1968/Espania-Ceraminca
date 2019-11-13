@@ -52,14 +52,14 @@ h4 {
 
 .contact-padding {
     margin-top: 30px;
-    
-    
+
+
 }
 
 .contact-paddingtop {
     margin-top: 60px;
-    
-    
+
+
 }
 
 .center-form {
@@ -98,7 +98,7 @@ padding:1.5em;
 
 .heading-padding {
     margin-top: 30px;
-    
+
 }
 
 /* --------- Body --------- */
@@ -107,9 +107,17 @@ padding:1.5em;
     max-width: 95%;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
 }
 
+.pdf {
+    margin-top: 30px;
+}
+
+.mark {
+  font-weight: 800;
+  font-size: 40px;
+}
 /* --------- Buttons -------*/
 
 
@@ -118,7 +126,7 @@ padding:1.5em;
   overflow: hidden;
   background-color: #333;
   position: relative;
-  width:300;
+  width:50;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -142,8 +150,9 @@ padding:1.5em;
   background: black;
   display: block;
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 0px;
+  top: 0px;
+
 }
 
 /* Add a grey background color on mouse-over */
@@ -156,7 +165,7 @@ padding:1.5em;
 .active {
   background-color: white;
   color: white;
- 
+
 }
 
 
@@ -195,6 +204,7 @@ footer {
 }
 
 /* ----------------------Media Queries---------------------- */
+
 
 @media(min-width: 992px) {
     .center-form {
