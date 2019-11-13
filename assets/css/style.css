@@ -19,6 +19,15 @@ h4 {
     margin: 0;
 }
 
+.heading1 {
+
+  margin-top:20px;
+  margin-bottom: 2px;
+  font-size: 30px;
+  font-weight: 600;
+
+}
+
 .uppercase {
     text-transform: uppercase;
 }
