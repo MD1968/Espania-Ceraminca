@@ -36,12 +36,13 @@ h4 {
 
 /*--------------------------------------------Heading*/
 .heading {
-    font-family: "Roboto", sans-serif;
+  font-family: 'lucinda handwriting', cursive;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 60px;
     margin-top: 5px;
     margin-bottom: 5px;
-    background-color: white;
+    background-color: white
+    color:blue;
 }
 
 /* --------- Contact form --------- */
