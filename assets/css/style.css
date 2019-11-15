@@ -32,7 +32,9 @@ h4 {
     text-transform: uppercase;
 }
 
-
+.catalogue-header {
+font-size: 20px;
+}
 
 /*--------------------------------------------Heading*/
 .heading {
