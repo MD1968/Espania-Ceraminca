@@ -1,5 +1,5 @@
 function sendMail(contactForm) {
-    emailjs.send("smtp_server", "espania", {
+  emailjs.send("gmail", "esp", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "phone" : contactForm.phone.value,
