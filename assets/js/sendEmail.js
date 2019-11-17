@@ -12,6 +12,7 @@ function sendMail(contactForm) {
         },
         function(error) {
             console.log("FAILED", error);
+              window.open("emailFail.html", "_self");
         }
     );
     return false;  // To block from loading a new page
